@@ -1,0 +1,30 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Gaya untuk logo perusahaan */
+.company-logo {
+    width: 300px; /* Ukuran logo diperbarui menjadi 300px */
+    border-radius: 50%; /* Jika Anda ingin mempertahankan sudut melingkar */
+}
+
+/* Gaya untuk gambar tim */
+.team-img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+/* Gaya untuk gambar armada */
+.fleet-img {
+    height: 200px; /* Atur tinggi gambar armada */
+    object-fit: cover;
+}
+
+/* Gaya untuk card yang sama tinggi */
+.equal-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
